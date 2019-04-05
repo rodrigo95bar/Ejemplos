@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1554420908 source:/home/alumno/Escritorio/Arrays NUEVO/Arrays/rodri.c
+	<stdio.h>
+
+1554423245 source:/home/alumno/Escritorio/Arrays NUEVO/Arrays/main.c
+	<stdio.h>
+	<stdlib.h>
+	"rodri.h"
+
+1554422451 /home/alumno/Escritorio/Arrays NUEVO/Arrays/rodri.h
+
