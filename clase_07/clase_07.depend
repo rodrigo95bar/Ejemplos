@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1555031520 source:/home/alumno/Escritorio/RodrigoBiblioteca/clase_07/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1555030139 source:/home/alumno/Escritorio/RodrigoBiblioteca/clase_07/funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1555030784 /home/alumno/Escritorio/RodrigoBiblioteca/clase_07/funciones.h
+
