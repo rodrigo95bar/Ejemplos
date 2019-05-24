@@ -29,3 +29,36 @@ int main()
     }
     return 0;
 }
+
+//EJEMPLO DE PASOS PARA DAR UN ALTA CON ESTO
+
+
+void alta(Persona* lista[], int len)
+{
+
+auxNombre
+auxEdad
+
+getString(auxNombre)
+-----
+
+
+Persona* p= per_newParametros(auxNombre...etc etc.)
+
+per_setId(p,generarID());
+
+int posLibre;
+
+per_buscarLibre(lista, len, &posLibre);
+
+lista [posLibre] =p;
+
+}
+
+
+
+
+
+
+
+}
