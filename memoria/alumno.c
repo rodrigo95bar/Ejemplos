@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "alumno.h"
+#include <string.h>
 
-
-Alumno* alumno_new()
+Persona* persona_new()
 {
-    return (Alumno*) malloc(sizeof(Alumno));
+    return (Persona*) malloc(sizeof(Persona));
 }
 
-Alumno* alumno_newParametros(int id,int legajo,int status,char* nombre)
+Persona* persona_newParametros(int id,int edad,char* nombre, char* apellido)
 {
     return NULL;
 }
 
-int alumno_delete(Alumno* this)
+int persona_delete(Persona* this)
 {
     int retorno = -1;
     if(this != NULL)
@@ -24,7 +24,7 @@ int alumno_delete(Alumno* this)
     return retorno;
 }
 
-int alumno_setId(Alumno* this, int value)
+int persona_setId(Persona* this, int value)
 {
     int retorno = -1;
     if(this != NULL && value >= 0)
@@ -35,8 +35,49 @@ int alumno_setId(Alumno* this, int value)
     return retorno;
 }
 
+int persona_setEdad(Persona* this, int* pEdad)
+{
+int retorno = -1;
+if(this != NULL && pEdad!=NULL)
+    {
+        *pEdad=this->edad;
+        retorno = 0;
+    }
+    return retorno;
 
-int alumno_getId(Alumno* this, int* value)
+
+}
+
+int persona_setApellido(Persona* this, char* pApellido)
+{
+int retorno = -1;
+if(this != NULL && pApellido!=NULL)
+    {
+        strncpy(this->apellido,pApellido,sizeof(this->apellido));
+        retorno = 0;
+    }
+    return retorno;
+}
+
+
+
+int persona_setNombre(Persona* this, char* pNombre)
+{
+int retorno = -1;
+if(this != NULL && pNombre!=NULL)
+    {
+        strncpy(this->nombre,pNombre,sizeof(this->nombre));
+        retorno = 0;
+    }
+    return retorno;
+}
+
+
+
+
+
+
+int persona_getId(Persona* this, int* value)
 {
     int retorno = -1;
     if(this != NULL && value != NULL)
@@ -48,6 +89,17 @@ int alumno_getId(Alumno* this, int* value)
 }
 
 
+
+
+
+
+
+
+
+
+
+
+//
 
 
 

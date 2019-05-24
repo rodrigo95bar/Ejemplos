@@ -5,27 +5,27 @@
 
 int main()
 {
-    Alumno* arrayAlumnos[QTY_ALUMNO];
-    Alumno* pAux;
-    pAux = alumno_new();
+    Persona* arrayPersonas[QTY_ALUMNO];
+    Persona* pAux;
+    pAux = persona_new();
     if(pAux != NULL)
     {
-        alumno_setId(pAux,44);
-        arrayAlumnos[0] = pAux;
+        persona_setId(pAux,44);
+        arrayPersonas[0] = pAux;
     }
 
 
-    pAux = alumno_new();
+    pAux = persona_new();
     if(pAux != NULL)
     {
-        alumno_setId(pAux,14);
-        arrayAlumnos[1] = pAux;
+        persona_setId(pAux,14);
+        arrayPersonas[1] = pAux;
     }
 
-    pAux = alumno_newParametros(11,11100,0,"Juan");
+    pAux = persona_newParametros(11,11100,0,"Juan");
     if(pAux != NULL)
     {
-        arrayAlumnos[2] = pAux;
+        arrayPersonas[2] = pAux;
     }
     return 0;
 }
