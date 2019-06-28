@@ -1,0 +1,7 @@
+*******************
+Informe de ventas
+*******************
+- Cantidad total de fotos reveladas: -1548742904
+- Cantidad de fotos por tipo POLAROID:  0 (POLAROID_11X9) 0 (POLAROID_10X10) 
+- Cantidad maxima de bultos fotosdos: 0
+*******************
